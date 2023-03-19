@@ -1,0 +1,90 @@
+
+
+/************ Custom Scroll Bar ************/
+
+::-webkit-scrollbar{
+    width: 13px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    /* background-color: #121212; */
+    background-color: #fff;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: #949494e1;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background: #000000d5;
+  }
+
+.topInfo{
+    justify-content: center;
+    text-align: center;
+}
+
+.iconsROS{
+    height: 35px;
+    width: 35px;
+    line-height: 37px;
+    font-size: 18px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    transition: all .200s;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.corporateStrategy{
+    align-self: center;
+}
+
+@media(max-width: 767px){
+    .corporateStrategy{
+        margin-bottom: 30px;
+    }
+}
+
+.servicesCapabilities{
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.engineering{
+    cursor: pointer;
+}
+
+.pmi-ecs{
+    justify-content: center;
+}
+
+.parallaxSection{
+    margin-bottom: 10px !important;
+}
+
+.softwareCapabilitiesImage{
+    align-self: center;
+}
+
+.softwareCapabilitiesHeader{
+    margin-bottom: 20px;
+}
+
+.softwareCapabilitiesPara p{
+    margin-bottom: 15px;
+}
+
+#footer .input-group>.input-group-addon {
+    display: flex;
+    align-items: center;
+}
+
+.text-center{
+    justify-content: center;
+}
+
+.container .row {
+    justify-content: center;
+}
