@@ -1,31 +1,29 @@
-
-
 /************ Custom Scroll Bar ************/
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 13px;
-  }
-  
-  ::-webkit-scrollbar-track{
+}
+
+::-webkit-scrollbar-track {
     /* background-color: #121212; */
     background-color: #fff;
-  }
-  
-  ::-webkit-scrollbar-thumb{
+}
+
+::-webkit-scrollbar-thumb {
     background: #949494e1;
     border-radius: 6px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover{
-    background: #000000d5;
-  }
+}
 
-.topInfo{
+::-webkit-scrollbar-thumb:hover {
+    background: #000000d5;
+}
+
+.topInfo {
     justify-content: center;
     text-align: center;
 }
 
-.iconsROS{
+.iconsROS {
     height: 35px;
     width: 35px;
     line-height: 37px;
@@ -38,41 +36,41 @@
     margin-right: 10px;
 }
 
-.corporateStrategy{
+.corporateStrategy {
     align-self: center;
 }
 
-@media(max-width: 767px){
-    .corporateStrategy{
+@media(max-width: 767px) {
+    .corporateStrategy {
         margin-bottom: 30px;
     }
 }
 
-.servicesCapabilities{
+.servicesCapabilities {
     background-color: rgba(0, 0, 0, 0.075);
 }
 
-.engineering{
+.engineering {
     cursor: pointer;
 }
 
-.pmi-ecs{
+.pmi-ecs {
     justify-content: center;
 }
 
-.parallaxSection{
+.parallaxSection {
     margin-bottom: 10px !important;
 }
 
-.softwareCapabilitiesImage{
+.softwareCapabilitiesImage {
     align-self: center;
 }
 
-.softwareCapabilitiesHeader{
+.softwareCapabilitiesHeader {
     margin-bottom: 20px;
 }
 
-.softwareCapabilitiesPara p{
+.softwareCapabilitiesPara p {
     margin-bottom: 15px;
 }
 
@@ -81,7 +79,7 @@
     align-items: center;
 }
 
-.text-center{
+.text-center {
     justify-content: center;
 }
 
