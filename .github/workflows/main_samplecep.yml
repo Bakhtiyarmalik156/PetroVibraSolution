@@ -53,4 +53,4 @@ jobs:
           app-name: 'SAMPLECEP'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E086936864664CCEADF583BB15ECA75A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6EBC2F5B22104346808BE838E616FD5B }}
